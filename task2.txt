@@ -1,0 +1,24 @@
+Objects and its internal representation in Javascript:-
+
+All JavaScript values, except primitives, are objects.
+**A primitive value is a value that has no properties or methods.**
+
+Objects are defined by using curly braces {} to define key-value pairs separated by commas.
+const person = {
+  name: "Dheena Dayalan",
+  age: 22,
+  occupation: "Software Engineer"
+}
+
+Properties and Values:
+Properties: 
+  These are the named attributes of an object. They act like unique identifiers for the data you store. 
+  Property names can be strings or symbols.
+Values: 
+  These are the actual data you store within the object. Values can be any data type – numbers, strings, 
+  booleans, arrays, even other objects!
+
+It helps in:-
+  # Objects help group related data together, making your code more readable and maintainable.
+  # Objects can hold various data types, allowing you to store complex information.
+  # You can create objects with common properties and functionality, making your code more modular and reusable.
